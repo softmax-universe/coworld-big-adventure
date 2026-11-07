@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Metta-AI/metta/main/packages/coworld/src/coworld/coworld_manifest_schema.json",
+  "$schema": "https://raw.githubusercontent.com/softmax-universe/softmax/main/packages/coworld/src/coworld/coworld_manifest_schema.json",
   "game": {
     "name": "big_adventure",
     "version": "0.1.0",
@@ -98,11 +98,11 @@
     "protocols": {
       "player": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/bitworld/blob/master/docs/sprite_v1.md"
+        "value": "https://github.com/softmax-universe/bitworld/blob/master/docs/sprite_v1.md"
       },
       "global": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/bitworld/blob/master/docs/sprite_v1.md"
+        "value": "https://github.com/softmax-universe/bitworld/blob/master/docs/sprite_v1.md"
       }
     },
     "docs": {
@@ -128,13 +128,13 @@
           "title": "reward.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/bitworld/blob/master/docs/reward_v1.md"
+            "value": "https://github.com/softmax-universe/bitworld/blob/master/docs/reward_v1.md"
           }
         }
       ],
       "readme": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/coworld-big-adventure/blob/9a926c1e954b0e37156eec37c2d1ac370d204b81/README.md"
+        "value": "https://github.com/softmax-universe/coworld-big-adventure/blob/9a926c1e954b0e37156eec37c2d1ac370d204b81/README.md"
       }
     },
     "runnable": {
@@ -163,7 +163,7 @@
       "name": "Default Reporter",
       "description": "Default reporter placeholder for Big Adventure episodes.",
       "type": "reporter",
-      "image": "ghcr.io/metta-ai/reporters-default@sha256:05729bdac8cec841655dd532ec09f1706e516f7af09825310c63351307251183"
+      "image": "ghcr.io/softmax-universe/reporters-default@sha256:05729bdac8cec841655dd532ec09f1706e516f7af09825310c63351307251183"
     }
   ],
   "grader": [
@@ -172,8 +172,8 @@
       "name": "BitWorld Score Grader",
       "type": "grader",
       "description": "Generic BitWorld grader that scores episode interest from score spread and game-specific activity signals.",
-      "source_url": "https://github.com/Metta-AI/coworld-big-adventure/tree/master/grader/graders/bitworld_score/bitworld_score_grader",
-      "image": "ghcr.io/metta-ai/coworld-big-adventure-grader:latest"
+      "source_url": "https://github.com/softmax-universe/coworld-big-adventure/tree/master/grader/graders/bitworld_score/bitworld_score_grader",
+      "image": "ghcr.io/softmax-universe/coworld-big-adventure-grader:latest"
     }
   ],
   "variants": [
